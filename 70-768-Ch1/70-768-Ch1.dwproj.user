@@ -3,7 +3,7 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <TargetServer>localhost</TargetServer>
+        <TargetServer>DESKTOP-TD602CR</TargetServer>
         <TargetDatabase>70-768-Ch1</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>

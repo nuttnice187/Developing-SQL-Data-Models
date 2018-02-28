@@ -6,6 +6,18 @@
     <Name>70-768-Ch1.database</Name>
     <FullPath>70-768-Ch1.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Wide World Importers DW.cube</Name>
+      <FullPath>Wide World Importers DW.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Wide World Importers DW.partitions</Name>
+          <FullPath>Wide World Importers DW.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>City.dim</Name>
