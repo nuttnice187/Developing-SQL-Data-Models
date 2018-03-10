@@ -419,6 +419,14 @@
           <AttributeID>ISO Week Number</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="74e197b7-95f1-46ac-a927-e6bedb101111">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="8364b363-7e6e-42ad-bf51-0d4b995ede8a">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="c42ced02-a3f2-45bb-8a01-1c975d08207c">
       <ID>Invoice Date</ID>
@@ -438,6 +446,14 @@
           <AttributeID>ISO Week Number</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="e784a2f7-0d80-4f70-86b0-7b221a1e67df">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="4b8239fe-804b-4fdd-b131-3735ac54178d">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="2927b7a8-b950-4b1e-ada1-6921a28fca15">
       <ID>Employee</ID>
@@ -493,6 +509,11 @@
           <AttributeID>Size</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="daf5099f-0a15-4818-9f58-df571b0a8ed9">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>

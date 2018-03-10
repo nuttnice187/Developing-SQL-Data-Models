@@ -68,7 +68,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>WQf8Yfd97wNyV8YjCMaX4m+yKPM=3/9/2018 8:29:32 PM3/9/2018 8:17:00 PM</TimeStamp>
+        <TimeStamp>HE1sEfkcPyvZuVqX4gm/lyGrX04=3/10/2018 12:30:19 PM3/9/2018 8:17:00 PM</TimeStamp>
         <ID>
           <String>Date</String>
         </ID>
@@ -110,14 +110,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>LCii79IyddpQK5HWg/CQOCsRQhs=3/10/2018 9:49:37 AM3/10/2018 9:38:22 AM</TimeStamp>
+        <TimeStamp>iT3joLL6DHyqlrVjFGMnp62V7Ko=3/10/2018 12:20:52 PM3/10/2018 9:38:22 AM</TimeStamp>
         <ID>
           <String>Stock Item</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>97lXQ4wMwfuTxENxSylgjMA+YPU=3/10/2018 9:41:55 AM2/27/2018 7:21:15 PMjTycT7FSxROlaubDZR3KEIfbKCw=3/10/2018 9:28:57 AM2/27/2018 7:21:15 PM</TimeStamp>
+        <TimeStamp>Gful9pM9TavQkdlTfH+Fv/Zzo2s=3/10/2018 12:20:52 PM2/27/2018 7:21:15 PMjTycT7FSxROlaubDZR3KEIfbKCw=3/10/2018 9:28:57 AM2/27/2018 7:21:15 PM</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
@@ -131,7 +131,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>6LeC2VqPb9DHp87MtCV3WIu9+Wk=3/10/2018 8:58:08 AM3/10/2018 8:58:08 AMPpxEyzul1Oqvu0lx04G5SWKFYls=3/10/2018 8:58:08 AM3/10/2018 8:58:08 AM</TimeStamp>
+        <TimeStamp>Vm5J7GyN+Z12/jvYuUvM+ry/yOg=3/10/2018 12:20:52 PM3/10/2018 8:58:08 AMPpxEyzul1Oqvu0lx04G5SWKFYls=3/10/2018 8:58:08 AM3/10/2018 8:58:08 AM</TimeStamp>
         <ID>
           <String>Wide World Importers DW_DM</String>
         </ID>
@@ -155,5 +155,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2018-03-10T14:49:53.97Z</LastDeployed>
+  <LastDeployed>2018-03-10T17:30:35.286667Z</LastDeployed>
 </DeploymentSnapshot>
