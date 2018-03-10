@@ -1,13 +1,9 @@
-﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="92e1a9fb-c3bb-4fb9-9062-da6a1ff6baf4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2ec3edab-b57a-4b51-840c-66b51ae20257" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Customer</ID>
   <Name>Customer</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
-    <Annotation>
-      <Name>MDXFilterComponent</Name>
-      <Value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;Filter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/SQLServer/reporting/QuerySpecification"&gt;&lt;FilterItems xmlns="http://schemas.microsoft.com/AnalysisServices/QueryDefinition" /&gt;&lt;/Filter&gt;</Value>
-    </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
       <Value>true</Value>
@@ -46,19 +42,18 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="CubeDimensionBinding" dwd:design-time-name="3ea76f74-c9a8-4c6d-91a9-6ba93c4f3881">
+  <Source xsi:type="CubeDimensionBinding" dwd:design-time-name="b8f38339-3850-4197-8f1b-583c97627980">
     <DataSourceID>.</DataSourceID>
     <CubeID>Wide World Importers DW</CubeID>
     <CubeDimensionID>Customer</CubeDimensionID>
-    <Filter></Filter>
   </Source>
   <Columns>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="06963dfa-4d2f-47a8-b765-6fb82d68e462">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="d25771b4-9608-48f3-8f61-62992d10203e">
       <ID>Customer</ID>
       <Name>Customer</Name>
       <IsKey>true</IsKey>
       <Type>Text</Type>
-      <Source xsi:type="CubeAttributeBinding" dwd:design-time-name="dfee709b-a582-4ea0-a57c-17a392c8aef0">
+      <Source xsi:type="CubeAttributeBinding" dwd:design-time-name="14f1a2f6-177e-4fac-874e-1e9604cafe45">
         <CubeID>Wide World Importers DW</CubeID>
         <CubeDimensionID>Customer</CubeDimensionID>
         <AttributeID>Customer Key</AttributeID>
@@ -66,36 +61,36 @@
       </Source>
       <Content>Key</Content>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="d4309293-e13f-4754-9423-5f20cd36144f">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="ab57c0ef-200e-453b-bfcd-f3015c6575d8">
       <ID>Profit</ID>
       <Name>Profit</Name>
       <Type>Double</Type>
-      <Source xsi:type="MeasureBinding" dwd:design-time-name="38d0983c-f6f3-4334-b1a3-ef09a16135d7">
+      <Source xsi:type="MeasureBinding" dwd:design-time-name="77204e40-265e-4088-9daa-758db579bbf8">
         <MeasureID>Profit</MeasureID>
       </Source>
       <Content>Continuous</Content>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="fc71ce47-8751-4b5f-8e99-2c987ae101d2">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="eeaa68d9-e146-4bdb-94b2-257bcd7296ff">
       <ID>Quantity</ID>
       <Name>Quantity</Name>
       <Type>Long</Type>
-      <Source xsi:type="MeasureBinding" dwd:design-time-name="78e45eeb-ca17-4e66-8a5e-4485284ac0f8">
+      <Source xsi:type="MeasureBinding" dwd:design-time-name="102e6e2e-4cd9-4a1c-af6d-8f1c30e6ef4c">
         <MeasureID>Quantity</MeasureID>
       </Source>
       <Content>Continuous</Content>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="ffffc187-d02e-4612-8f16-304e7f0947ee">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="836c5315-f5a8-4e9b-a145-891786dd1240">
       <ID>Sale Count</ID>
       <Name>Sale Count</Name>
       <Type>Long</Type>
-      <Source xsi:type="MeasureBinding" dwd:design-time-name="bd460322-f277-4653-8bdf-bd0314b1d862">
+      <Source xsi:type="MeasureBinding" dwd:design-time-name="b475ca8a-f8c6-4a82-a1da-ff4f400536ac">
         <MeasureID>Sale Count</MeasureID>
       </Source>
       <Content>Continuous</Content>
     </Column>
   </Columns>
   <MiningModels>
-    <MiningModel dwd:design-time-name="997f642b-6273-46f2-8593-2bb7ded1b5ee">
+    <MiningModel dwd:design-time-name="54f9833b-a3ad-4bc1-9186-efc940788efd">
       <ID>Customer</ID>
       <Name>Customer</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -104,24 +99,24 @@
       <State>Unprocessed</State>
       <Algorithm>Microsoft_Clustering</Algorithm>
       <Columns>
-        <Column dwd:design-time-name="9536ef93-7e4a-4cbc-8b94-c041c56b8cc3">
+        <Column dwd:design-time-name="20dbb978-72d5-4c9a-9dd1-41bed9bda086">
           <ID>Customer</ID>
           <Name>Customer</Name>
           <SourceColumnID>Customer</SourceColumnID>
           <Usage>Key</Usage>
         </Column>
-        <Column dwd:design-time-name="44d24845-6704-46ee-9abe-8442962c25b8">
+        <Column dwd:design-time-name="ef847195-8f92-497c-81fc-4705df0878bd">
           <ID>Profit</ID>
           <Name>Profit</Name>
           <SourceColumnID>Profit</SourceColumnID>
           <Usage>Predict</Usage>
         </Column>
-        <Column dwd:design-time-name="97fcdef1-a4b4-4e19-9c0e-f5dc6d3fba7b">
+        <Column dwd:design-time-name="adf5b8a2-1911-4799-b853-b2b4f56fae97">
           <ID>Quantity</ID>
           <Name>Quantity</Name>
           <SourceColumnID>Quantity</SourceColumnID>
         </Column>
-        <Column dwd:design-time-name="7c3a0927-dd8c-4960-a533-03d8382ff766">
+        <Column dwd:design-time-name="92e9db76-0787-4e41-81d7-b81dbd4347d0">
           <ID>Sale Count</ID>
           <Name>Sale Count</Name>
           <SourceColumnID>Sale Count</SourceColumnID>
@@ -129,5 +124,4 @@
       </Columns>
     </MiningModel>
   </MiningModels>
-  <ddl100_100:HoldoutMaxPercent>30</ddl100_100:HoldoutMaxPercent>
 </MiningStructure>

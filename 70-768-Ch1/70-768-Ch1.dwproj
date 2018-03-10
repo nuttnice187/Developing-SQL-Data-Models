@@ -68,16 +68,16 @@
       <FullPath>Invoice.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Customer Clusters.dim</Name>
-      <FullPath>Customer Clusters.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Sales Reason.dim</Name>
       <FullPath>Sales Reason.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Stock Item.dim</Name>
       <FullPath>Stock Item.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Customer Clusters.dim</Name>
+      <FullPath>Customer Clusters.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
