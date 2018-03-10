@@ -26,23 +26,121 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>Gorsnw54Nadorvtz3fXY0cz2Cv8=2/26/2018 1:30:40 PM2/26/2018 1:30:36 PM</TimeStamp>
+        <TimeStamp>zh2nfdPdUZv7tj5YAnnU+qZq3gw=3/10/2018 9:38:22 AM2/26/2018 1:30:36 PM</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>/tH2v73QPJq1N3UHb0IdFBFCbxo=3/9/2018 9:12:54 PM3/9/2018 8:47:14 PM</TimeStamp>
+        <ID>
+          <String>WWI DW Alt</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>o7W0hNM7OUTmJxzaryE1n6sayG8=3/10/2018 8:58:08 AM3/10/2018 8:58:08 AM</TimeStamp>
+        <ID>
+          <String>Customer Clusters_DMDSV</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>KZdytAzsJYcIvJFg4ZIrb6b5Ihg=2/27/2018 9:46:22 PM2/27/2018 10:52:36 AM</TimeStamp>
+        <TimeStamp>+JF1St/pMWcYtNA8jlLNapsbNTY=3/9/2018 8:42:45 PM2/27/2018 10:52:36 AM</TimeStamp>
         <ID>
           <String>City</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>bcxycBF/kQjzpCG6J4YDvP5TKLw=3/9/2018 8:15:06 PM3/2/2018 12:54:50 AM</TimeStamp>
+        <ID>
+          <String>Employee</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>bv3wrR3hm7R6i5P1pohfb1x9J80=3/9/2018 8:29:32 PM3/9/2018 8:15:05 PM</TimeStamp>
+        <ID>
+          <String>Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WQf8Yfd97wNyV8YjCMaX4m+yKPM=3/9/2018 8:29:32 PM3/9/2018 8:17:00 PM</TimeStamp>
+        <ID>
+          <String>Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NB9E9wQ6ItOU6apqcCkCcJ3zj4A=3/9/2018 9:18:28 PM3/9/2018 9:15:52 PM</TimeStamp>
+        <ID>
+          <String>Customer Alt</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Bj/CWnCsmWR1aMi3g3PLevk+MI0=3/9/2018 9:21:24 PM3/9/2018 9:18:28 PM</TimeStamp>
+        <ID>
+          <String>Bill To Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>8nG5OnBHzRbTJsA85iNWu+PpY7o=3/10/2018 8:54:16 AM3/10/2018 8:52:13 AM</TimeStamp>
+        <ID>
+          <String>Invoice</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1jMImfSjXQuSfd6ki5HFtDvu3KI=3/10/2018 8:58:08 AM3/10/2018 8:58:08 AM</TimeStamp>
+        <ID>
+          <String>Customer Clusters</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+BEdJrbwGxtgSqHNmD0N5xmGMME=3/10/2018 9:17:59 AM3/10/2018 9:12:33 AM</TimeStamp>
+        <ID>
+          <String>Sales Reason</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LCii79IyddpQK5HWg/CQOCsRQhs=3/10/2018 9:49:37 AM3/10/2018 9:38:22 AM</TimeStamp>
+        <ID>
+          <String>Stock Item</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>O37a7A8uwZdGQRd1/L/MTPnQkno=2/27/2018 9:46:22 PM2/27/2018 7:21:15 PM2EqlMKOJbHsCy+9S0OMQ8mY+MyY=2/27/2018 7:21:15 PM2/27/2018 7:21:15 PM</TimeStamp>
+        <TimeStamp>97lXQ4wMwfuTxENxSylgjMA+YPU=3/10/2018 9:41:55 AM2/27/2018 7:21:15 PMjTycT7FSxROlaubDZR3KEIfbKCw=3/10/2018 9:28:57 AM2/27/2018 7:21:15 PM</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>K6L6CM/jnThbD6PT/RAZr5ZShlk=3/9/2018 9:24:28 PM3/9/2018 9:21:24 PMY32NKzMRK0Z+i53VcWwCNcHStuY=3/9/2018 9:21:24 PM3/9/2018 9:21:24 PM</TimeStamp>
+        <ID>
+          <String>Reference Dimension Cube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>6LeC2VqPb9DHp87MtCV3WIu9+Wk=3/10/2018 8:58:08 AM3/10/2018 8:58:08 AMPpxEyzul1Oqvu0lx04G5SWKFYls=3/10/2018 8:58:08 AM3/10/2018 8:58:08 AM</TimeStamp>
+        <ID>
+          <String>Wide World Importers DW_DM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>7Lrno59nLqEJE4ue/MgnU3zxgKE=3/10/2018 8:58:08 AM3/10/2018 8:58:08 AM</TimeStamp>
+        <ID>
+          <String>Customer</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
@@ -57,5 +155,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2018-02-28T02:46:30.636667Z</LastDeployed>
+  <LastDeployed>2018-03-10T14:49:53.97Z</LastDeployed>
 </DeploymentSnapshot>

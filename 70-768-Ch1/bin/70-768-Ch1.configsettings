@@ -14,7 +14,39 @@
       <Dimension>
         <ID>City</ID>
       </Dimension>
+      <Dimension>
+        <ID>Employee</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Customer</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Date</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Customer Alt</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Bill To Customer</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Invoice</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Customer Clusters</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Sales Reason</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Stock Item</ID>
+      </Dimension>
     </Dimensions>
+    <MiningStructures>
+      <MiningStructure>
+        <ID>Customer</ID>
+      </MiningStructure>
+    </MiningStructures>
     <Cubes>
       <Cube>
         <ID>Wide World Importers DW</ID>
@@ -26,6 +58,35 @@
                 <ID>Sale</ID>
               </Partition>
             </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Sales Reason Bridge</ID>
+            <Partitions>
+              <Partition>
+                <ID>Sales Reason Bridge</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Reference Dimension Cube</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Sale Alt</ID>
+            <Partitions>
+              <Partition>
+                <ID>Sale Alt</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Wide World Importers DW_DM</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Sale</ID>
           </MeasureGroup>
         </MeasureGroups>
       </Cube>

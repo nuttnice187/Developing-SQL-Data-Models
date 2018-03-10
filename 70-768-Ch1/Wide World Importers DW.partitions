@@ -7,13 +7,33 @@
         <Partition dwd:design-time-name="ffb8e278-afba-4884-8f56-3d479be2a6df">
           <ID>Sale</ID>
           <Name>Sale</Name>
+          <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="539d52d7-99c8-4f04-97ef-a97fd3e9cbe5">
+            <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
+            <TableID>Fact_Sale</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Sales Reason Bridge</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="c6c34b97-d977-4a81-b767-d11f53205f5c">
+          <ID>Sales Reason Bridge</ID>
+          <Name>Sales Reason Bridge</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8c51fd88-1d00-443b-8dce-dea42439ed95">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c08ed402-b599-4554-af8d-d1657fcc4a17">
             <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
-            <TableID>Fact_Sale</TableID>
+            <TableID>Sales_x0020_Reason_x0020_Bridge</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
