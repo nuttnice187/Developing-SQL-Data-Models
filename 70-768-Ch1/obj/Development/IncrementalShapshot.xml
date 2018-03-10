@@ -26,7 +26,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>zh2nfdPdUZv7tj5YAnnU+qZq3gw=3/10/2018 2:26:54 PM2/26/2018 1:30:36 PM</TimeStamp>
+        <TimeStamp>mioaSEBObNiAxOEnoFpTKkndKcA=3/10/2018 3:39:17 PM2/26/2018 1:30:36 PM</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
@@ -124,16 +124,16 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>sqyAxsWfI/sn9YLFhSrwAUJweUI=3/10/2018 2:42:40 PM2/27/2018 7:21:15 PMckx32oXqptT1Ej+gzYfucW/U4Tc=3/10/2018 2:42:40 PM2/27/2018 7:21:15 PM</TimeStamp>
+        <TimeStamp>uqmbaD7XxJLcSqwGcJvYyruw7BU=3/10/2018 2:44:14 PM3/10/2018 2:44:13 PMQgxNglmrnizJhcycGFPGjdlEcRk=3/10/2018 2:44:14 PM3/10/2018 2:44:13 PM</TimeStamp>
         <ID>
-          <String>Wide World Importers DW</String>
+          <String>Wide World Importers DW_DM</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>uqmbaD7XxJLcSqwGcJvYyruw7BU=3/10/2018 2:44:14 PM3/10/2018 2:44:13 PMQgxNglmrnizJhcycGFPGjdlEcRk=3/10/2018 2:44:14 PM3/10/2018 2:44:13 PM</TimeStamp>
+        <TimeStamp>M3IuXI+pbETUOA95ox4DgifoVrQ=3/10/2018 4:19:06 PM2/27/2018 7:21:15 PMAnL8l8klXZ3zjfj1QWBF3vf/JWY=3/10/2018 3:47:51 PM2/27/2018 7:21:15 PM</TimeStamp>
         <ID>
-          <String>Wide World Importers DW_DM</String>
+          <String>Wide World Importers DW</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
@@ -155,5 +155,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2018-03-10T19:44:44.05Z</LastDeployed>
+  <LastDeployed>2018-03-10T21:19:16.023333Z</LastDeployed>
 </DeploymentSnapshot>

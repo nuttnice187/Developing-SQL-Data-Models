@@ -62,6 +62,20 @@
         </MeasureGroups>
       </Cube>
       <Cube>
+        <ID>Wide World Importers DW_DM</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Sale</ID>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Sales Reason Bridge</ID>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Sale 1</ID>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
         <ID>Wide World Importers DW</ID>
         <MeasureGroups>
           <MeasureGroup>
@@ -88,19 +102,13 @@
               </Partition>
             </Partitions>
           </MeasureGroup>
-        </MeasureGroups>
-      </Cube>
-      <Cube>
-        <ID>Wide World Importers DW_DM</ID>
-        <MeasureGroups>
           <MeasureGroup>
-            <ID>Sale</ID>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Sales Reason Bridge</ID>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Sale 1</ID>
+            <ID>Stock Holding</ID>
+            <Partitions>
+              <Partition>
+                <ID>Stock Holding</ID>
+              </Partition>
+            </Partitions>
           </MeasureGroup>
         </MeasureGroups>
       </Cube>
