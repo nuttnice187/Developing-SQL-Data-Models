@@ -5,14 +5,19 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "70-768-Ch1", "70-768-Ch1\70-768-Ch1.dwproj", "{8CD5D449-329C-4DC8-B814-7E4D31FE22E3}"
 EndProject
+Project("{6870E480-7721-4708-BFB8-9AE898AA21B3}") = "70-768-Ch2", "70-768-Ch2\70-768-Ch2.smproj", "{8CE414BB-95B2-4C99-9E03-51BA72086E22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Development|Default = Development|Default
+		Development|x86 = Development|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8CD5D449-329C-4DC8-B814-7E4D31FE22E3}.Development|Default.ActiveCfg = Development
-		{8CD5D449-329C-4DC8-B814-7E4D31FE22E3}.Development|Default.Build.0 = Development
-		{8CD5D449-329C-4DC8-B814-7E4D31FE22E3}.Development|Default.Deploy.0 = Development
+		{8CD5D449-329C-4DC8-B814-7E4D31FE22E3}.Development|x86.ActiveCfg = Development
+		{8CD5D449-329C-4DC8-B814-7E4D31FE22E3}.Development|x86.Build.0 = Development
+		{8CD5D449-329C-4DC8-B814-7E4D31FE22E3}.Development|x86.Deploy.0 = Development
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.Development|x86.ActiveCfg = Development|x86
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.Development|x86.Build.0 = Development|x86
+		{8CE414BB-95B2-4C99-9E03-51BA72086E22}.Development|x86.Deploy.0 = Development|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
