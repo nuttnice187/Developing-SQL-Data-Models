@@ -129,6 +129,13 @@
             }
           }
         ],
+        "measures": [
+          {
+            "name": "City Count",
+            "expression": " COUNTROWS('City')",
+            "formatString": "#,0"
+          }
+        ],
         "annotations": [
           {
             "name": "_TM_ExtProp_QueryDefinition",
@@ -1088,6 +1095,18 @@
                 ]
               }
             ]
+          }
+        ],
+        "measures": [
+          {
+            "name": "Total Sales",
+            "expression": " SUM(Sale[Total Excluding Tax])",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Sale Count",
+            "expression": " COUNTROWS('Sale')",
+            "formatString": "#,0"
           }
         ],
         "annotations": [
